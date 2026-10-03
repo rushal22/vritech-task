@@ -42,7 +42,6 @@ export default function SignupForm() {
       topMsg="Good things, closer"
       panelTitle="Make room for what you love."
       panelDescription="Create an account to keep your favorites and make checkout a little easier."
-      panelFooter="A fresh start for your next find."
       title="Create your account"
       prompt="Already have an account?"
       linkHref="/login"

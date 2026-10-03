@@ -16,7 +16,6 @@ export default function LoginForm() {
       topMsg="Good to see you again"
       panelTitle="Your next favorite is waiting."
       panelDescription="Sign in to pick up where you left off and get back to the things you love."
-      panelFooter="A good find is never far away."
       title="Welcome back"
       prompt="Don't have an account?"
       linkHref="/signup"

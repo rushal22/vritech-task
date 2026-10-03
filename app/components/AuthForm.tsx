@@ -6,7 +6,6 @@ type AuthFormProps = {
   topMsg: string;
   panelTitle: string;
   panelDescription: string;
-  panelFooter: string;
   title: string;
   prompt: string;
   linkHref: string;
@@ -52,7 +51,6 @@ export default function AuthForm({
   topMsg,
   panelTitle,
   panelDescription,
-  panelFooter,
   title,
   prompt,
   linkHref,
@@ -79,7 +77,6 @@ export default function AuthForm({
               {panelDescription}
             </p>
           </div>
-          <p className="relative text-xs text-white/55">{panelFooter}</p>
         </aside>
 
         <section className="mx-auto w-full px-6 py-9 sm:px-10 sm:py-12 md:px-14 md:py-16">
